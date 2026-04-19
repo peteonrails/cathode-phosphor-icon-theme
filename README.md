@@ -14,10 +14,17 @@ A green phosphor CRT-style icon theme for GNOME, inspired by retro terminal aest
 
 ## Install
 
-Copy the theme to your local icons directory:
+### Arch Linux (AUR)
+
+```bash
+yay -S cathode-phosphor-icon-theme-git
+```
+
+### Manual
 
 ```bash
 cp -r cathode-phosphor ~/.local/share/icons/
+gtk-update-icon-cache ~/.local/share/icons/cathode-phosphor
 ```
 
 Then select "cathode-phosphor" in GNOME Tweaks or your desktop's appearance settings.
