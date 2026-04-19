@@ -1,11 +1,13 @@
 #!/bin/bash
 set -e
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 SRC="/usr/share/icons/Yaru"
-DST="/home/pete/Work/cathode-phosphor-icon-theme/cathode-phosphor"
+DST="${SCRIPT_DIR}/cathode-phosphor"
 SHADE="#55b555"
 GREEN="#33ff33"
-TMPDIR="/tmp/robco-build"
+TMPDIR="/tmp/cathode-phosphor-build"
 
 mkdir -p "$TMPDIR"
 
@@ -108,7 +110,7 @@ make_desktop() {
     local mon_size=$((size * 3 / 4))
     
     # Render monitor
-    magick /usr/share/icons/Yaru/scalable/devices/video-display-symbolic.svg \
+    magick "${SRC}/scalable/devices/video-display-symbolic.svg" \
       -resize ${mon_size}x${mon_size} -background none -gravity center -extent ${size}x${size} \
       "$TMPDIR/_mon_full.png"
     

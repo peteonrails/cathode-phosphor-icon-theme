@@ -1,0 +1,9 @@
+# Build artifacts
+/tmp/
+*.bak
+
+# Review sheets (generated during dev)
+sheet-*-review-*.png
+
+# Claude Code
+.claude/
