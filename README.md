@@ -14,6 +14,12 @@ A green phosphor CRT-style icon theme for GNOME, inspired by retro terminal aest
 
 ## Install
 
+### Omarchy
+
+```bash
+omarchy-pkg-aur-add cathode-phosphor-icon-theme-git
+```
+
 ### Arch Linux (AUR)
 
 ```bash
