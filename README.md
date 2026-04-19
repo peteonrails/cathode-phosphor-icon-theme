@@ -58,6 +58,7 @@ The build script transforms Yaru source icons using ImageMagick. Requires:
 
 - [Yaru Icons](https://github.com/ubuntu/yaru) by Sam Hewitt, Matthieu James, and the Canonical Design Team
 - [Signal Directive](https://github.com/SignalDirective) for the RobCo omarchy theme that inspired this icon set
+- [OldJobobo](https://github.com/OldJobobo) for the [Phosphor OS](https://omarchythemes.com/) omarchy theme
 - Bethesda Softworks, whose Fallout series inspired the CRT phosphor aesthetic
 
 ## License
