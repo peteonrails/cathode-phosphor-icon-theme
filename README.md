@@ -18,22 +18,24 @@ A green phosphor CRT-style icon theme for GNOME, inspired by retro terminal aest
 
 ```bash
 omarchy-pkg-aur-add cathode-phosphor-icon-theme-git
+gsettings set org.gnome.desktop.interface icon-theme 'cathode-phosphor'
 ```
 
 ### Arch Linux (AUR)
 
 ```bash
 yay -S cathode-phosphor-icon-theme-git
+gsettings set org.gnome.desktop.interface icon-theme 'cathode-phosphor'
 ```
 
 ### Manual
 
 ```bash
-cp -r cathode-phosphor ~/.local/share/icons/
+git clone https://github.com/peteonrails/cathode-phosphor-icon-theme.git
+cp -r cathode-phosphor-icon-theme/cathode-phosphor ~/.local/share/icons/
 gtk-update-icon-cache ~/.local/share/icons/cathode-phosphor
+gsettings set org.gnome.desktop.interface icon-theme 'cathode-phosphor'
 ```
-
-Then select "cathode-phosphor" in GNOME Tweaks or your desktop's appearance settings.
 
 The theme inherits from `Yaru-dark` and `hicolor`, so install Yaru if you want fallback coverage for any icons not included in this set.
 
