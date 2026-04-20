@@ -1,6 +1,6 @@
 # Cathode Phosphor Icon Theme
 
-A green phosphor CRT-style icon theme for GNOME, inspired by retro terminal aesthetics. Built as a derivative of Ubuntu's [Yaru](https://github.com/ubuntu/yaru) icon set.
+A green phosphor CRT-style icon theme for GNOME, inspired by retro terminal aesthetics. Built as a derivative of Ubuntu's [Yaru](https://github.com/ubuntu/yaru) icon set. Intended for use in retro Phosphorous Terminal Style themes, like [RobCo](https://github.com/signaldirective/robco-theme) and [PhosphorOS](https://omarchythemes.com/themes/phosphor-os). 
 
 ![Preview](https://raw.githubusercontent.com/peteonrails/cathode-phosphor-icon-theme/main/preview/preview.png)
 
